@@ -8,7 +8,7 @@ import OutlineMobileSVG from "@/assets/svg/outline-ico-mobile.svg";
 import SnakeSVG from "@/assets/svg/snakedice.svg";
 import SnakeMobileSVG from "@/assets/svg/snake-1-mobile.svg";
 import DiceRozaSVG from "@/assets/svg/dice-roza-1.svg";
-
+import SnakeWebp from "@/assets/svg/SNAKE-9.svg"
 const Home = () => {
   const [selected, setSelected] = useState(0);
   const handleSelected = (index: number) => {
@@ -93,7 +93,7 @@ const Home = () => {
                 NFT Project
                                 </h1>
                 <p className="text-body-color-dark mb-4 text-base !leading-relaxed sm:text-md 2xl:text-lg 3xl:text-xl">
-                  Join our transparent pre-sale at a 60 ETH valuation, followed by two stages of the main ICO, ending at a 600 ETH valuation. Buy through MetaMask with instant token delivery. Trading will begin on SushiSwap.
+                10,000 unique "Burnie the Snake" NFTs will be available for mint starting on February 1. By owning one of these NFTs, you will get several benefits. More details below
                 </p>
               </div>
             </div>
@@ -107,7 +107,7 @@ const Home = () => {
                 <b
                   onClick={() => handleSelected(0)}
                   className={`text-md cursor-pointer ${selected === 0 ? "md:text-3xl text-transparent !bg-clip-text [background:linear-gradient(207.06deg,_#00e1ff,_#ff00da_70.83%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]" : "md:text-xl"}`}>
-                  Pre-Sale
+                  Unique Design
                 </b>
               </div>
               <div className="w-1/3">
@@ -126,16 +126,16 @@ const Home = () => {
               </div>
             </div>
             <div className="relative w-full flex">
-              <div className={`absolute top-[10%] items-center w-full px-[10%] ${selected === 0 ? "block" : "hidden"}`}>
-                <div className="flex justify-center mb-[7%] lg:hidden">
+              <div className={`absolute top-[3%] items-center w-full px-[10%] ${selected === 0 ? "block" : "hidden"}`}>
+                {/* <div className="flex justify-center mb-[7%] lg:hidden">
                   <DiceRozaSVG />
-                </div>
-                <div className="text-center mb-[4%]">
+                </div> */}
+                {/* <div className="text-center mb-[4%]">
                   <b className="text-4xl lg:text-5xl uppercase text-transparent !bg-clip-text [background:linear-gradient(92.8deg,_#fff,_#dadada)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
                     Coming Soon
                   </b>
-                </div>
-                <div className="w-full flex flex-col lg:flex-row justify-center space-x-0 lg:space-x-12 text-center">
+                </div> */}
+                {/* <div className="w-full flex flex-col lg:flex-row justify-center space-x-0 lg:space-x-12 text-center">
                   <div className="flex justify-center space-x-12 mb-[4%] lg:mb-0">
                     <div className="w-auto">
                       <b className="clock-time uppercase font-flanders-art-sans text-transparent !bg-clip-text [background:linear-gradient(92.8deg,_#fff,_#dadada)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-center">
@@ -180,7 +180,14 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
+                {/* <h1>hello world</h1> */}
+                <SnakeWebp className="w-[70%] h-[220px]  mx-auto "/>
+                <h6 className="text-body-color-dark font-semibold text-sm text-center capitalize mt-2">draft of base character</h6>
+                <p className="text-body-color-dark text-center mt-4 mb-10 text-base !leading-relaxed sm:text-md 2xl:text-lg 3xl:text-xl ">
+                And maybe add a description "10,000 unique NFTs with over 100 accessories will be available for minting at a price to be determined, but around 0.01 - 0.015 ETH.
+                </p>
+                {/* <img src={SnakeWebp} alt="" /> */}
               </div>
               <div className={`absolute top-[10%] items-center w-full px-[12%] xl:px-[18%] ${selected === 1 ? "block" : "hidden"}`}>
                 <div className="flex justify-between items-end w-full pb-4 xs:pb-10 md:pb-14 lg:pb-4 3xl:pb-12">
