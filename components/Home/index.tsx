@@ -114,14 +114,14 @@ const Home = () => {
                 <b
                   onClick={() => handleSelected(1)}
                   className={`text-md cursor-pointer ${selected === 1 ? "md:text-3xl text-transparent !bg-clip-text [background:linear-gradient(207.06deg,_#00e1ff,_#ff00da_70.83%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]" : "md:text-xl"}`}>
-                  ICO Stage 1
+                  Profit Share
                 </b>
               </div>
               <div className="w-1/3">
                 <b
                   onClick={() => handleSelected(2)}
-                  className={`text-md cursor-pointer ${selected === 2 ? "md:text-3xl text-transparent !bg-clip-text [background:linear-gradient(207.06deg,_#00e1ff,_#ff00da_70.83%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]" : "md:text-xl"}`}>
-                  ICO Stage 2
+                  className={`text-md md:text-nowrap cursor-pointer ${selected === 2 ? "md:text-3xl text-transparent !bg-clip-text [background:linear-gradient(207.06deg,_#00e1ff,_#ff00da_70.83%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]" : "md:text-xl"}`}>
+                  Reduced House Edge
                 </b>
               </div>
             </div>
@@ -185,12 +185,14 @@ const Home = () => {
                 <SnakeWebp className="w-[70%] h-[220px]  mx-auto "/>
                 <h6 className="text-body-color-dark font-semibold text-sm text-center capitalize mt-2">draft of base character</h6>
                 <p className="text-body-color-dark text-center mt-4 mb-10 text-base !leading-relaxed sm:text-md 2xl:text-lg 3xl:text-xl ">
-                And maybe add a description "10,000 unique NFTs with over 100 accessories will be available for minting at a price to be determined, but around 0.01 - 0.015 ETH.
+               10,000 unique NFTs with over 100 accessories will be available for minting at a price to be determined, but around 0.01 - 0.015 ETH.
                 </p>
                 {/* <img src={SnakeWebp} alt="" /> */}
               </div>
               <div className={`absolute top-[10%] items-center w-full px-[12%] xl:px-[18%] ${selected === 1 ? "block" : "hidden"}`}>
-                <div className="flex justify-between items-end w-full pb-4 xs:pb-10 md:pb-14 lg:pb-4 3xl:pb-12">
+            <p className="text-body-color-dark text-center mt-4 mb-10 text-base !leading-relaxed sm:text-md 2xl:text-lg 3xl:text-xl">By owning a Burnie the Snake NFT you will receive a share of profits from our casino. 10% of profits will be distributed to all NFT holders on a monthly or quarterly basis, depending on revenue.</p>
+
+                {/* <div className="flex justify-between items-end w-full pb-4 xs:pb-10 md:pb-14 lg:pb-4 3xl:pb-12">
                   <div className="w-auto">Purchase Price</div>
                   <div className="w-auto">
                     <p className="font-bold text-lg md:text-2xl xl:text-3xl text-transparent !bg-clip-text [background:linear-gradient(200deg,_#00e1ff,_#ff00da_70.83%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
@@ -235,17 +237,20 @@ const Home = () => {
                 <div className="relative w-full py-12 xs:py-16 md:py-20 lg:py-12 3xl:py-16">
                   <div className="absolute rounded-3xl bg-black opacity-10 w-full h-3"></div>
                   <div className="absolute rounded-3xl [background:linear-gradient(236.09deg,_#00e1ff,_#ff00da)] w-[4.5%] h-3"></div>
-                </div>
-                <div className="hidden w-full xxs:flex lg:hidden xl:flex justify-center lg:justify-start">
-                  <Link href="https://drive.google.com/file/d/15QA8mkUw47ZYIGqhaqPxlbqnbJ-L_xR4/view?usp=sharing" target="_blank" className="rounded-lg [background:linear-gradient(94.73deg,_#c1c1c1,_#fff_28.7%,_#fff_69.99%,_#c1c1c1)] overflow-hidden flex flex-col items-center justify-center py-[0.94rem] px-[1.88rem]">
-                    <div className="leading-[2rem] text-black text-2xl capitalize font-medium">
-                      View Whitepaper
-                    </div>
-                  </Link>
-                </div>
+                // </div> */}
+                 {/* <div className="hidden w-full xxs:flex lg:hidden xl:flex justify-center lg:justify-start">
+                   <Link href="https://drive.google.com/file/d/15QA8mkUw47ZYIGqhaqPxlbqnbJ-L_xR4/view?usp=sharing" target="_blank" className="rounded-lg [background:linear-gradient(94.73deg,_#c1c1c1,_#fff_28.7%,_#fff_69.99%,_#c1c1c1)] overflow-hidden flex flex-col items-center justify-center py-[0.94rem] px-[1.88rem]">
+                     <div className="leading-[2rem] text-black text-2xl capitalize font-medium">
+                       View Whitepaper
+                     </div>
+                   </Link>
+                 </div> */}
               </div>
               <div className={`absolute top-[10%] items-center w-full px-[12%] xl:px-[18%] ${selected === 2 ? "block" : "hidden"}`}>
-                <div className="flex justify-between items-end w-full pb-4 xs:pb-10 md:pb-14 lg:pb-4 3xl:pb-12">
+                <p className="text-body-color-dark text-center mt-4 mb-10 text-base !leading-relaxed sm:text-md 2xl:text-lg 3xl:text-xl">
+                Then in the section where it says "ICO Stage 2" we can replace it to "Reduced House Edge" and we can write a description "In addition to earning profits, by connecting your wallet holding a Burnie the Snake NFT you will receive better odds when playing the casino games, or potentially get access to a NFT-holders-only casino game (to be determined).
+                  </p> 
+               {/* <div className="flex justify-between items-end w-full pb-4 xs:pb-10 md:pb-14 lg:pb-4 3xl:pb-12">
                   <div className="w-auto">Purchase Price</div>
                   <div className="w-auto">
                     <p className="font-bold text-lg md:text-2xl xl:text-3xl text-transparent !bg-clip-text [background:linear-gradient(200deg,_#00e1ff,_#ff00da_70.83%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
@@ -297,7 +302,7 @@ const Home = () => {
                       View Whitepaper
                     </div>
                   </Link>
-                </div>
+                </div> */}
               </div>
               <div className="absolute top-[80%] md:top-[75%] lg:top-[53%] right-[6%] lg:right-[12%]">
                 <div className="w-full flex space-x-8 items-center text-center uppercase mb-4 px-[10%]">
