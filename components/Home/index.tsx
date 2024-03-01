@@ -8,7 +8,7 @@ import OutlineMobileSVG from "@/assets/svg/outline-ico-mobile.svg";
 import SnakeSVG from "@/assets/svg/snakedice.svg";
 import SnakeMobileSVG from "@/assets/svg/snake-1-mobile.svg";
 import DiceRozaSVG from "@/assets/svg/dice-roza-1.svg";
-import SnakeWebp from "@/assets/svg/SNAKE-9.svg"
+// import SnakeWebp from "@/assets/svg/SNAKE-10.wr"
 const Home = () => {
   const [selected, setSelected] = useState(0);
   const handleSelected = (index: number) => {
@@ -73,7 +73,8 @@ const Home = () => {
               THE FIRST CASINO WITH DEFLATIONARY TOKENOMICS AVAILABLE IN THE US
             </h1>
             <div className="flex justify-center">
-              <Link href="https://drive.google.com/file/d/15QA8mkUw47ZYIGqhaqPxlbqnbJ-L_xR4/view?usp=sharing" target="_blank" className="rounded-lg [background:linear-gradient(94.73deg,_#c1c1c1,_#fff_28.7%,_#fff_69.99%,_#c1c1c1)] overflow-hidden flex flex-col items-center justify-center py-[0.94rem] px-[1.88rem]">
+              <Link href="
+https://docs.google.com/document/d/1UQnRVtef4S6DEnPV5S4QSeoPRwBlOJJ4brC1rteunlw/edit?usp=sharing" target="_blank" className="rounded-lg [background:linear-gradient(94.73deg,_#c1c1c1,_#fff_28.7%,_#fff_69.99%,_#c1c1c1)] overflow-hidden flex flex-col items-center justify-center py-[0.94rem] px-[1.88rem]">
                 <div className="leading-[2rem] text-black text-2xl capitalize font-medium">
                   View Whitepaper
                 </div>
@@ -93,7 +94,7 @@ const Home = () => {
                 NFT Project
                                 </h1>
                 <p className="text-body-color-dark mb-4 text-base !leading-relaxed sm:text-md 2xl:text-lg 3xl:text-xl">
-                10,000 unique "Burnie the Snake" NFTs will be available for mint starting on February 1. By owning one of these NFTs, you will get several benefits. More details below
+                10000 unique "Burnie the Snake" NFTs will be available for mint starting on February 1. By owning one of these NFTs, you will get several benefits. More details below
                 </p>
               </div>
             </div>
@@ -182,15 +183,22 @@ const Home = () => {
                   </div>
                 </div> */}
                 {/* <h1>hello world</h1> */}
-                <SnakeWebp className="w-[70%] h-[220px]  mx-auto "/>
-                <h6 className="text-body-color-dark font-semibold text-sm text-center capitalize mt-2">draft of base character</h6>
+                {/* <SnakeWebp className="w-[70%] h-[220px]  mx-auto "/> */}
+                <Image   width={160}
+                      height={160}
+                      className="mx-auto mb-6"
+                      alt=""
+                      src="/images/snakedice/snake-10.JPG" />
+                    
+              
+                <h6 className="text-body-color-dark font-semibold text-sm text-center capitalize mt-2">NFT Collection</h6>
                 <p className="text-body-color-dark text-center mt-4 mb-10 text-base !leading-relaxed sm:text-md 2xl:text-lg 3xl:text-xl ">
-               10,000 unique NFTs with over 100 accessories will be available for minting at a price to be determined, but around 0.01 - 0.015 ETH.
+               1000 unique NFTs with over 100 accessories will be available for minting at a price to be determined, but around 0.01 - 0.015 ETH.
                 </p>
-                {/* <img src={SnakeWebp} alt="" /> */}
+               
               </div>
               <div className={`absolute top-[10%] items-center w-full px-[12%] xl:px-[18%] ${selected === 1 ? "block" : "hidden"}`}>
-            <p className="text-body-color-dark text-center mt-4 mb-10 text-base !leading-relaxed sm:text-md 2xl:text-lg 3xl:text-xl">By owning a Burnie the Snake NFT you will receive a share of profits from our casino. 10% of profits will be distributed to all NFT holders on a monthly or quarterly basis, depending on revenue.</p>
+            <p className="text-body-color-dark text-center mt-4 mb-10 text-base !leading-relaxed sm:text-md 2xl:text-lg 3xl:text-xl">By owning a Burnie the Snake NFT you will receive a share of profits from our casino. 30% of profits will be distributed to all NFT holders on a monthly or quarterly basis, depending on revenue.</p>
 
                 {/* <div className="flex justify-between items-end w-full pb-4 xs:pb-10 md:pb-14 lg:pb-4 3xl:pb-12">
                   <div className="w-auto">Purchase Price</div>

@@ -15,7 +15,7 @@ const teamData: Card[] = [
     name: "",
     title: "Gaming Profits",
     paragraph:
-      "60% of our profits will be burned, 15% will be given to governance stakers, 7.5% each to the core team and treasury, and 10% to rollover.",
+      "25% of our profits will be burned, 30% will be given to NFT holders, 15% will be given to governance stakers, 10% each to the core team and treasury, and 10% will remain in the smart contract in order to pay out winners.",
   },
   {
     id: 2,

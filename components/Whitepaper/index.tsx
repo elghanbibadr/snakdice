@@ -35,7 +35,8 @@ const Whitepaper = () => {
               </div>
             </div>
             <div className="xl:w-[30%] xl:mb-0 mb-4 flex justify-center">
-              <Link href="https://drive.google.com/file/d/15QA8mkUw47ZYIGqhaqPxlbqnbJ-L_xR4/view?usp=sharing" target="_blank" className="rounded-lg [background:linear-gradient(99.85deg,_#4631d6,_#d535ef)] overflow-hidden flex flex-col items-center justify-center py-[15px] px-[30px] text-2xl">
+              <Link href="
+https://docs.google.com/document/d/1UQnRVtef4S6DEnPV5S4QSeoPRwBlOJJ4brC1rteunlw/edit?usp=sharing" target="_blank" className="rounded-lg [background:linear-gradient(99.85deg,_#4631d6,_#d535ef)] overflow-hidden flex flex-col items-center justify-center py-[15px] px-[30px] text-2xl">
                 <div className="font-medium">
                   View Whitepaper
                 </div>

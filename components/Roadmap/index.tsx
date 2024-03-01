@@ -71,22 +71,25 @@ const Roadmap = () => {
             <div className="flex flex-row justify-between w-full text-body-color">
               <div className="w-1/4">
                 <div className="ml-[20%]">
-                  Launch our website, ICO, begin marketing and awareness campaigns, build liquidity, become fully audited and share press releases about Snake Dice.
+                 
+                Launch the website, release our NFT Project, and launch the dice game. In addition, we will begin our marketing and awareness campaigns.
                 </div>
               </div>
               <div className="w-1/4">
                 <div className="ml-[20%]">
-                  Begin the development of the SnakeDice gaming platform, continue marketing the project, incorporate in Cyprus and hire additional core members to ensure regulatory compliance.
+                Begin the development of the SnakeDice gaming platform, continue marketing the project, incorporate in Cyprus and hire additional core members to ensure regulatory compliance.
                 </div>
               </div>
               <div className="w-1/4">
                 <div className="ml-[20%]">
-                  Launch the beta version of the SnakeDice gaming platform, gather feedback from users and make necessary improvements. We may also run the airdrop and/or NFT project during this quarter.
+                Launch the beta version of the SnakeDice gaming platform, gather feedback from users and make necessary improvements. We may also run the airdrop and/or NFT project during this quarter.
+
+
                 </div>
               </div>
               <div className="w-1/4">
                 <div className="ml-[20%]">
-                  Continue development of the gaming platform and prepare for full launch in Q1 of 2025, potentially sooner if possible.
+                Continue development of the gaming platform and prepare for full launch in Q1 of 2025, potentially sooner if possible.
                 </div>
               </div>
             </div>

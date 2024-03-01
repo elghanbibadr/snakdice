@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Card } from "@/types/card";
 
 const SingleTeam = ({ team, selected }: { team: Card, selected: boolean }) => {
-  const { image, name, title, paragraph } = team;
+  const { image, name,subtitle, title, paragraph } = team;
   return (
     <div className={`mt-[70px] mb-[40px] h-[85%] sm:h-[80%] mx-2 text-left cursor-pointer ${selected ? "border" : ""}`} >
       <div className="relative flex flex-row p-6">
@@ -11,13 +11,14 @@ const SingleTeam = ({ team, selected }: { team: Card, selected: boolean }) => {
             <Image
               width={100}
               height={100}
-              className="absolute bottom-0 object-cover"
+              className="absolute rounded-full bottom-0 object-cover"
               alt=""
               src={image}
             />
           </div>
           <div className="mt-[60px]">
             <p className="text-[1.31rem] leading-[40px]">{name}</p>
+            <p className="text-[1.31rem] leading-[40px]">{subtitle}</p>
             <p className="text-transparent !bg-clip-text [background:linear-gradient(88.25deg,_#7d73ed,_#01e1ff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] mb-3">
               {title}
             </p>
