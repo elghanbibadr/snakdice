@@ -49,7 +49,7 @@ const Tokenomics = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-2 text-2xl leading-tight md:text-3xl sm:leading-tight md:leading-tight">
-                  30% ICO
+                  30% ICO/IDO
                 </h1>
                 <p className="text-body-color-dark text-base">
                   30,000 $SNAKE will be sold via a fair public sale during the initial coin offering. Valuation of $SNAKE will start at 60 ETH and end at 600 ETH during the second public sale.

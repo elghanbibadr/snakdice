@@ -94,7 +94,7 @@ https://docs.google.com/document/d/1UQnRVtef4S6DEnPV5S4QSeoPRwBlOJJ4brC1rteunlw/
                 NFT Project
                                 </h1>
                 <p className="text-body-color-dark mb-4 text-base !leading-relaxed sm:text-md 2xl:text-lg 3xl:text-xl">
-                10000 unique "Burnie the Snake" NFTs will be available for mint starting on February 1. By owning one of these NFTs, you will get several benefits. More details below
+                1000 unique "Burnie the Snake" NFTs will be available for mint starting on March 1. By owning one of these NFTs, you will get several benefits. More details below
                 </p>
               </div>
             </div>
@@ -256,7 +256,7 @@ https://docs.google.com/document/d/1UQnRVtef4S6DEnPV5S4QSeoPRwBlOJJ4brC1rteunlw/
               </div>
               <div className={`absolute top-[10%] items-center w-full px-[12%] xl:px-[18%] ${selected === 2 ? "block" : "hidden"}`}>
                 <p className="text-body-color-dark text-center mt-4 mb-10 text-base !leading-relaxed sm:text-md 2xl:text-lg 3xl:text-xl">
-                Then in the section where it says "ICO Stage 2" we can replace it to "Reduced House Edge" and we can write a description "In addition to earning profits, by connecting your wallet holding a Burnie the Snake NFT you will receive better odds when playing the casino games, or potentially get access to a NFT-holders-only casino game (to be determined).
+In addition to earning profits, by connecting your wallet holding a Burnie the Snake NFT you will receive better odds when playing the casino games, or potentially get access to a NFT-holders-only casino game (to be determined).
                   </p> 
                {/* <div className="flex justify-between items-end w-full pb-4 xs:pb-10 md:pb-14 lg:pb-4 3xl:pb-12">
                   <div className="w-auto">Purchase Price</div>

@@ -17,8 +17,8 @@ const SingleTeam = ({ team, selected }: { team: Card, selected: boolean }) => {
             />
           </div>
           <div className="mt-[60px]">
-            <p className="text-[1.31rem] leading-[40px]">{name}</p>
-            <p className="text-[1.31rem] leading-[40px]">{subtitle}</p>
+              <p className="text-[1.31rem] leading-[20px]">{name}</p>
+              <span className="text-[0.8rem] text-gray-400 mt-1 mb-4 inline-block ">{subtitle}</span>
             <p className="text-transparent !bg-clip-text [background:linear-gradient(88.25deg,_#7d73ed,_#01e1ff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] mb-3">
               {title}
             </p>

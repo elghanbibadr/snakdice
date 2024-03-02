@@ -30,7 +30,7 @@ const Whitepaper = () => {
                   ABOUT SNAKEDICE
                 </h1>
                 <p className="dark:text-body-color-dark mb-4 text-base !leading-relaxed text-body-color sm:text-md 2xl:text-lg 3xl:text-xl">
-                  SnakeDice will be a revolutionary online social gaming ecosystem and decentralized autonomous organization (DAO) powered by the deﬂationary token $SNAKE. SnakeDice will take a unique approach by gradually decreasing the native $SNAKE token supply over time, creating scarcity and potential value appreciation. SnakeDice will perform “buyback and burn” with 60% of the social gaming platform revenue. The platform will oﬀer a wide range of traditional casino games and proprietary specialty games. It uses a house edge mechanism to buy and burn $SNAKE tokens, ensuring a deﬂationary eﬀect.
+                  SnakeDice will be a revolutionary online social gaming ecosystem and decentralized autonomous organization (DAO) powered by the deﬂationary token $SNAKE. SnakeDice will take a unique approach by gradually decreasing the native $SNAKE token supply over time, creating scarcity and potential value appreciation. SnakeDice will perform “buyback and burn” with 25% of the social gaming platform revenue. The platform will oﬀer a wide range of traditional casino games and proprietary specialty games. It uses a house edge mechanism to buy and burn $SNAKE tokens, ensuring a deﬂationary eﬀect.
                 </p>
               </div>
             </div>
